@@ -6,7 +6,8 @@ import java.util.regex.Pattern;
 public class Time {
     public static final int MINUTES_PER_HOUR = 60;
     public static final int MORNING_TIME = 6;
-    public static final int EVENING_TIME = 18;
+    public static final int EVENING_TIME = 23;
+    public static final int MINUTES_IN_ONE_DAY = 60 * 24;
 
     private int hour;
     private int minute;
@@ -30,7 +31,10 @@ public class Time {
     public int diff(Time target) {
         int minutes = hour * MINUTES_PER_HOUR + minute;
         int minutes_target = target.hour * MINUTES_PER_HOUR + target.minute;
-        return Math.abs(minutes - minutes_target);
+        if (minutes > minutes_target)
+            return MINUTES_IN_ONE_DAY - (minutes - minutes_target);
+        else
+            return minutes_target - minutes;
     }
 
     public boolean isEvening() {

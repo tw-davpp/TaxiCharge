@@ -4,7 +4,11 @@
     <list default="true" id="5213d556-06b3-4ac3-92ea-5bbbfb50c902" name="Default" comment="" />
     <ignored path="TaxiCharge.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="5213d556-06b3-4ac3-92ea-5bbbfb50c902" time="1358099663488" ignored="false" />
+    <file path="/Dummy.txt" changelist="5213d556-06b3-4ac3-92ea-5bbbfb50c902" time="1358173452791" ignored="false" />
+    <file path="/TaxiTest.java" changelist="5213d556-06b3-4ac3-92ea-5bbbfb50c902" time="1358176518230" ignored="false" />
+    <file path="/TimeTest.java" changelist="5213d556-06b3-4ac3-92ea-5bbbfb50c902" time="1358175366031" ignored="false" />
+    <file path="/Time.java" changelist="5213d556-06b3-4ac3-92ea-5bbbfb50c902" time="1358175336037" ignored="false" />
+    <file path="/Taxi.java" changelist="5213d556-06b3-4ac3-92ea-5bbbfb50c902" time="1358177128084" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +23,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -53,7 +58,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -63,28 +67,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TaxiTest.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/tw/taxi/TaxiTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="51" selection-start="2111" selection-end="2111" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TimeTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/test/tw/taxi/TimeTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="71" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Taxi.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/tw/taxi/Taxi.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="36" selection-start="652" selection-end="652" vertical-scroll-proportion="-0.5743073">
+            <state line="39" column="35" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -93,7 +79,25 @@
       <file leaf-file-name="Time.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/tw/taxi/Time.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="42" selection-start="1077" selection-end="1077" vertical-scroll-proportion="0.0">
+            <state line="40" column="31" selection-start="1141" selection-end="1153" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaxiTest.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/test/tw/taxi/TaxiTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="137" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Taxi.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/tw/taxi/Taxi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="64" column="23" selection-start="2055" selection-end="2055" vertical-scroll-proportion="2.3450882">
               <folding />
             </state>
           </provider>
@@ -117,7 +121,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/test/tw/taxi/TimeTest.java" />
+        <option value="$PROJECT_DIR$/src/tw/taxi/Time.java" />
         <option value="$PROJECT_DIR$/test/tw/taxi/TaxiTest.java" />
+        <option value="$PROJECT_DIR$/src/tw/taxi/Taxi.java" />
       </list>
     </option>
   </component>
@@ -140,7 +147,7 @@
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
-    <option name="STATE" value="2" />
+    <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
@@ -219,12 +226,12 @@
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
+    <property name="recentsLimit" value="5" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RunManager" selected="JUnit.TaxiTest">
     <configuration default="false" name="TaxiTest" type="JUnit" factoryName="JUnit" temporary="true">
@@ -255,7 +262,7 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="TimeTest" type="JUnit" factoryName="JUnit" temporary="true">
+    <configuration default="false" name="TimeTest.test_diff_between_ten_eleven_and_eleven_two_is_fifty_one" type="JUnit" factoryName="JUnit" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="tw.taxi.*" />
@@ -267,8 +274,8 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="tw.taxi" />
       <option name="MAIN_CLASS_NAME" value="tw.taxi.TimeTest" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="METHOD_NAME" value="test_diff_between_ten_eleven_and_eleven_two_is_fifty_one" />
+      <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -307,6 +314,68 @@
       </option>
       <envs />
       <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TaxiTest.test_sixty_mile_per_hour_cost_zero_waiting_price" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tw.taxi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TaxiCharge" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tw.taxi" />
+      <option name="MAIN_CLASS_NAME" value="tw.taxi.TaxiTest" />
+      <option name="METHOD_NAME" value="test_sixty_mile_per_hour_cost_zero_waiting_price" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="TaxiTest.test_two_hundred_forty_mile_per_hour_cost_zero_waiting_price" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tw.taxi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="TaxiCharge" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="tw.taxi" />
+      <option name="MAIN_CLASS_NAME" value="tw.taxi.TaxiTest" />
+      <option name="METHOD_NAME" value="test_two_hundred_forty_mile_per_hour_cost_zero_waiting_price" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -323,19 +392,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -364,6 +420,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -402,16 +471,20 @@
       <patterns />
       <method />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TaxiTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.TimeTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.TimeTest.test_diff_between_ten_eleven_and_eleven_two_is_fifty_one" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.TaxiTest.test_three_mile_cost_five_price_with_one_fuel_addition" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TaxiTest.test_sixty_mile_per_hour_cost_zero_waiting_price" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TaxiTest.test_two_hundred_forty_mile_per_hour_cost_zero_waiting_price" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="JUnit.TaxiTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TaxiTest.test_three_mile_cost_five_price_with_one_fuel_addition" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TimeTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TaxiTest.test_two_hundred_forty_mile_per_hour_cost_zero_waiting_price" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TaxiTest.test_sixty_mile_per_hour_cost_zero_waiting_price" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TaxiTest.test_three_mile_cost_five_price_with_one_fuel_addition" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TimeTest.test_diff_between_ten_eleven_and_eleven_two_is_fifty_one" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -443,7 +516,7 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -518,6 +591,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/test/tw/taxi/TaxiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="64" column="51" selection-start="2111" selection-end="2111" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/test/tw/taxi/TimeTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="71" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0">
@@ -525,9 +605,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/test/tw/taxi/TaxiTest.java">
+    <entry file="file://$PROJECT_DIR$/src/tw/taxi/Taxi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="51" selection-start="2111" selection-end="2111" vertical-scroll-proportion="0.0">
+        <state line="45" column="51" selection-start="1566" selection-end="1566" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -539,9 +619,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/test/tw/taxi/TimeTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="35" selection-start="1224" selection-end="1224" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/tw/taxi/Time.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="31" selection-start="1141" selection-end="1153" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/tw/taxi/TaxiTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="137" selection-start="1567" selection-end="1567" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/tw/taxi/Taxi.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="36" selection-start="652" selection-end="652" vertical-scroll-proportion="-0.5743073">
+        <state line="64" column="23" selection-start="2055" selection-end="2055" vertical-scroll-proportion="2.3450882">
           <folding />
         </state>
       </provider>
