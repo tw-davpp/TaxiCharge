@@ -31,34 +31,34 @@ public class TaxiTest {
     }
 
     @Test
-    public void test_three_mile_cost_five_price_with_one_fuel_addition() {
+    public void test_should_add_fuel_addition_when_total_distance_more_than_start_distance() {
         taxi.update(new Time("10:10"), new Time("10:11"), 3);
         assertThat(taxi.price(), equalTo(5));
     }
 
     @Test
-    public void test_sixty_mile_per_hour_cost_one_waiting_price() {
+    public void test_should_add_waiting_price_when_speed_less_than_120km_per_hour() {
         taxi.update(new Time("10:10"), new Time("10:11"), 2);
         taxi.update(new Time("10:11"), new Time("10:12"), 1);
         assertThat(taxi.waitingPrice(), equalTo(1));
     }
 
     @Test
-    public void test_two_hundred_forty_mile_per_hour_cost_zero_waiting_price() {
+    public void test_should_not_add_waiting_price_when_speed_more_than_120km_per_hour() {
         taxi.update(new Time("10:10"), new Time("10:11"), 2);
         taxi.update(new Time("10:11"), new Time("10:12"), 4);
         assertThat(taxi.waitingPrice(), equalTo(0));
     }
 
     @Test
-    public void test_at_twenty_three_drive_ten_mile_cost_ten_evening_price() {
+    public void test_should_add_one_evening_price_per_mile_at_evening() {
         taxi.update(new Time("22:59"), new Time("23:00"), 2);
         taxi.update(new Time("23:00"), new Time("23:01"), 10);
         assertThat(taxi.eveningPrice(), equalTo(10));
     }
 
     @Test
-    public void test_at_ten_drive_ten_mile_cost_zero_evening_price() {
+    public void test_should_not_add_evening_price_when_not_at_evening() {
         taxi.update(new Time("9:59"), new Time("10:00"), 2);
         taxi.update(new Time("10:00"), new Time("10:01"), 10);
         assertThat(taxi.eveningPrice(), equalTo(0));
